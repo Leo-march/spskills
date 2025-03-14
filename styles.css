@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(Montserrat-Medium.ttf);
+}
+
+.background {
+    max-width: 414px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(#C8DAFF, #2C4674);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Montserrat-Regular";
+    color: #2C4674;
+}
+
+
+p{
+    font-family: "Montserrat-Regular";
+    color: #ffff;
+    font-size: 18px;
+}
+img{
+    position:absolute;
+    bottom: 0;
+}
+.bola_esquerda{
+    border-radius: 50%;
+    background-color: #2C4674;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bola_direita{
+    border-radius: 50%;
+    background-color: #ffff;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
