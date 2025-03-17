@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: "Montserrat-Regular";
     src: url(Montserrat-Regular.ttf);
@@ -25,50 +26,60 @@
     text-align: center;
     background: linear-gradient(#C8DAFF, #2C4674);
     border-radius: 15px;
-    position: relative;
     display: flex;
-    justify-content: center space-around;
-    align-items: center;
-    flex-direction: column;
 }
 
-body{
+body {
     position: relative;
     display: flex;
     justify-content: center space-between;
     align-items: center;
 }
 
-h1 {
+.titulo {
     font-size: 64px;
     font-family: "Montserrat-Regular";
     color: #2C4674;
 }
 
-
-p{
+.paragrafo {
     font-family: "Montserrat-Regular";
     color: #ffff;
     font-size: 18px;
 }
-img{
-    position:absolute;
+
+img {
+    position: absolute;
     bottom: 0;
 }
-.bola_esquerda{
+
+.bola_esquerda {
     border-radius: 50%;
     background-color: #2C4674;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     display: flex;
     align-items: center;
 }
 
-.bola_direita{
+.bola_direita {
     border-radius: 50%;
     background-color: #ffff;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.bolas {
+    display: flex;
+}
+
+.content {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
