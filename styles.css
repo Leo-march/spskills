@@ -62,6 +62,16 @@ img {
     align-items: center;
 }
 
+.bolona_esquerda {
+    border-radius: 50%;
+    background-color: #ffff;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
 .bola_direita {
     border-radius: 50%;
     background-color: #ffff;
@@ -72,8 +82,24 @@ img {
     margin-left: 5px;
 }
 
+.bolona_direita {
+    border-radius: 50%;
+    background-color: #2C4674;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
 .bolas {
     display: flex;
+}
+
+.bolinha{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .content {
