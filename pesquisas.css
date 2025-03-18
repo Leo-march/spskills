@@ -1,0 +1,9 @@
+.background {
+    max-width: 414px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CBE0DB;
+    border-radius: 15px;
+    display: flex;
+}
