@@ -45,3 +45,18 @@
     position: relative;
     top: 20px;
 }
+
+.barradepesquisa{
+    min-width: 380px;
+    height: 30px;
+    background-color: #EAF3F1;
+    border-radius:50px ;
+    display: flex;
+}
+
+.lupa{
+    height: 24px;
+    width: 24px;
+    top:5px;
+    left: 5px;
+}
