@@ -109,7 +109,16 @@ input {
     border-radius: 30px;
     background-color: #519E8A;
     margin: 30px;
-    background-image: url('fa-solid_dog.svg');
+    background-image: url('fa-solid_dog_white.svg');
     background-repeat: no-repeat;
     background-position: 12px;
+}
+
+.textoseleção{
+    font-size: 24px;
+    font-family: "Montserrat-Regular";
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: ;
 }
