@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(Montserrat-Medium.ttf);
+}
+
+.background {
+    max-width: 414px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CBE0DB;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.casacachorros {
+    width: 150px;
+    height: 250px;
+    background-color: #519E8A;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.partebranca {
+    min-width: 150px;
+    height: 70px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.barradepesquisa input {
+    min-width: 380px;
+    height: 45px;
+    background-color: #EAF3F1;
+    border-radius: 50px;
+    display: flex;
+    margin: 15px;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input {
+    padding-left: 40px;
+    font-family: "Montserrat-Medium";
+    font-size: 18px;
+}
+
+.cachorro {
+    display: block;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+.cachorrobenji {
+    display: block;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.nemseimais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 30px;
+}
+
+.search {
+    font-size: 24px;
+    font-family: "Montserrat-Regular";
+    color: #2C4674;
+}
+
+.partedecima {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.selecaocachorro{
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #519E8A;
+    margin: 30px;
+    background-image: url('fa-solid_dog.svg');
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
