@@ -24,15 +24,15 @@
     height: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: #CBE0DB;
+    background-color: #E8DBD4;
     border-radius: 30px;
     overflow: hidden;
 }
 
-.casacachorros {
+.casagatos {
     width: 150px;
     height: 250px;
-    background-color: #519E8A;
+    background-color: #D1723F;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -51,13 +51,15 @@
 .barradepesquisa input {
     min-width: 380px;
     height: 45px;
-    background-color: #EAF3F1;
+    background-color: #F6F1EE;
     border-radius: 50px;
     display: flex;
     margin: 15px;
     background-image: url('search.svg');
     background-repeat: no-repeat;
     background-position: 10px;
+    border: none;
+    outline: none;
 }
 
 input {
@@ -66,16 +68,28 @@ input {
     font-size: 18px;
 }
 
-.cachorro {
+.gatozoe {
     display: block;
     margin: 0 auto;
     margin-top: 21px;
 }
 
-.cachorrobenji {
+.gatoalex {
     display: block;
     margin: 0 auto;
-    margin-top: 49px;
+    margin-top: 40px;
+}
+
+.gatoariana {
+    display: block;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.gatoremi {
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px;
 }
 
 .nemseimais {
@@ -94,6 +108,8 @@ input {
     font-size: 24px;
     font-family: "Montserrat-Regular";
     color: #2C4674;
+    display: flex;
+    align-items: center;
 }
 
 .partedecima {
@@ -101,24 +117,99 @@ input {
     justify-content: space-between;
     width: 100%;
     padding: 15px 15px;
+    margin-top: 15px;
 }
 
-.selecaocachorro{
-    width: 160px;
+.selecaocachorro {
+    width: 150px;
     height: 50px;
     border-radius: 30px;
-    background-color: #519E8A;
+    background-color: #ffff;
     margin: 30px;
-    background-image: url('fa-solid_dog_white.svg');
+    background-image: url('fa-solid_dog.svg');
     background-repeat: no-repeat;
     background-position: 12px;
+    transition: 0.4s ease;
 }
 
-.textoseleção{
-    font-size: 24px;
-    font-family: "Montserrat-Regular";
+.selecaocachorro:hover {
+    transform: scale(1.2);
+}
+
+.selecaogato {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #D6875D;
+    margin: 30px;
+    background-image: url('fa-solid_cat_white.svg');
+    background-repeat: no-repeat;
+    background-position: 12px;
+    transition: 0.4s ease;
+}
+
+.selecaogato:hover {
+    transform: scale(1.2);
+}
+
+.seleções {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    width: 414px;
+    height: 90px;
+}
+
+.nome {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #2C4674;
+    display: block;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.raça {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.coracao {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.textoseleçãocachorro {
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
+    color: #2C4674;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.textoseleçãogato {
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
     color: #ffff;
     display: flex;
     justify-content: center;
-    padding: ;
+    padding-top: 15px;
+}
+
+.setavoltar {
+    transition: 0.4s ease;
+}
+
+.setavoltar:hover {
+    transform: translateX(-5px);
+}
+
+a {
+    text-decoration: none;
 }

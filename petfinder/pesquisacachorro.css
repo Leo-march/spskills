@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(Montserrat-Medium.ttf);
+}
+
+.background {
+    max-width: 414px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CBE0DB;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.casacachorros {
+    width: 150px;
+    height: 250px;
+    background-color: #519E8A;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.partebranca {
+    min-width: 150px;
+    height: 70px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.barradepesquisa input {
+    min-width: 380px;
+    height: 45px;
+    background-color: #EAF3F1;
+    border-radius: 50px;
+    display: flex;
+    margin: 15px;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: none;
+    outline: none;
+}
+
+input {
+    padding-left: 40px;
+    font-family: "Montserrat-Medium";
+    font-size: 18px;
+}
+
+.cachorro {
+    display: block;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+.cachorrobenji {
+    display: block;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.nemseimais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 30px;
+}
+
+.search {
+    font-size: 24px;
+    font-family: "Montserrat-Regular";
+    color: #2C4674;
+    display: flex;
+    align-items: center;
+}
+
+.partedecima {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+.selecaocachorro {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #519E8A;
+    margin: 30px;
+    background-image: url('fa-solid_dog_white.svg');
+    background-repeat: no-repeat;
+    background-position: 12px;
+    transition: 0.4s ease;
+}
+
+.selecaocachorro:hover {
+    transform: scale(1.2);
+}
+
+.selecaogato{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ffff;
+    margin: 30px;
+    background-image: url('fa-solid_cat.svg');
+    background-repeat: no-repeat;
+    background-position: 12px;
+    transition: 0.4s ease;
+}
+
+.selecaogato:hover {
+    transform: scale(1.2);
+}
+
+.seleções{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    width: 414px;
+    height: 90px;
+}
+
+.nome {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #2C4674;
+    display: block;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.raça {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.coracao{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.textoseleçãocachorro {
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.textoseleçãogato {
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
+    color: #2C4674;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.setavoltar {
+    transition: 0.4s ease;
+}
+
+.setavoltar:hover {
+    transform: translateX(-5px);
+}
+
+a{
+    text-decoration: none;
+}
