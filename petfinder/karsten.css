@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(Montserrat-Medium.ttf);
+}
+
+.background {
+    max-width: 414px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CBE0DB;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.blocokarsten{
+    width: 414px;
+    height: 485px;
+    background-color: #519E8A;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.informacoes{
+    width: 80px;
+    height: 80px;
+    background-color: #DCECE8;
+    display: block;
+    opacity: 0.9;
+    border-radius: 15px;
+    
+}
+
+.blocoinformacoes{
+    display: flex;
+    height: 80px;
+    min-width: 414px;
+    position: fixed;
+    justify-content: space-evenly;
+    top: 391px;
+}
+
+.dadoskarsten{
+    font-family: "Montserrat-Bold";
+    color: #2C4674;
+    font-size: 14px;
+    padding-top: 15px;
+
+}
+.valor{
+    font-family: "Montserrat-Medium";
+    color: #2C4674;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.informacoeskarsten{
+    height: 135px;
+    width: 414px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nomegigante{
+    font-family: "Montserrat-Bold";
+    color: #2C4674;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.raca{
+    font-family:  "Montserrat-Medium";
+    color: #2C4674;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 45px;
+}
+
+.preco{
+    font-family: "Montserrat-Medium";
+    color: #2C4674;
+    font-size: 16px;
+    text-align: end;
+    justify-content: center;
+    padding-right: 25px;
+    padding-top: 26px;
+}
+
+.fotojames{
+    width: 414px;
+    height: 414px;
+    background-image: url("james.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.setavoltar {
+    position: fixed;
+    padding-top: 50px;
+    padding-left: 30px;
+    transition: 0.4s ease;
+}
+
+.setavoltar:hover {
+    transform: translateX(-5px);
+}
